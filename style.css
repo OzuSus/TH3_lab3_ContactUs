@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: Arial,Tahoma,sans-serif;
+}
+.container{
+    width: 600px;
+    height: 600px;
+    margin: 20px auto;
+    border: 12px solid #e6e6e6;
+    padding: 10px 20px;
+}
+.container form{
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.container .name .fullname input{
+    width: 600px;
+    height: 50px;
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.container .name{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+input[type="text"] {
+    padding-top: 20px;
+}
+.container .name .fullname label {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-weight: bold;
+    font-size: 11px;
+    color: #5b606e;
+    pointer-events: none;
+    transition: all 0.2s ease-in-out;
+}
+
+input::placeholder{
+    font-size: 15px;
+    padding-left: 18px;
+    color: #d5d5d3;
+}
+.container .address {
+    display: flex;
+}
+.container .address form input{
+     width: 280px;
+     height: 50px;
+     background-color: #f7f7f7;
+     border: none;
+     border-radius: 10px;
+     font-size: 20px;
+ }
+.container .address .phoneNUmber{
+    margin-left: 30px;
+}
+.container .address .email{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+input[type="email"] {
+    padding-top: 20px;
+}
+.container .address .email label{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-weight: bold;
+    font-size: 11px;
+    color: #333;
+    pointer-events: none;
+    transition: all 0.2s ease-in-out;
+}
+.container .address .phoneNUmber{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+input[type="email"] {
+    padding-top: 20px;
+}
+.container .address .phoneNUmber label{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-weight: bold;
+    font-size: 11px;
+    color: #333;
+    pointer-events: none;
+    transition: all 0.2s ease-in-out;
+}
+.container .choose .pc select {
+    width: 600px;
+    height: 70px;
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding-left: 15px;
+}
+.container .choose .pc{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+select[name="neededservice"] {
+    padding-top: 20px;
+}
+.container .choose .pc label{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-weight: bold;
+    font-size: 11px;
+    color: #333;
+    pointer-events: none;
+    transition: all 0.2s ease-in-out;
+}
+.container .message .ms input{
+    width: 600px;
+    height: 100px;
+    border: 3px solid #f7f7f7;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.container .message .ms{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+input[type="text"] {
+    padding-top: 20px;
+}
+.container .message .ms label{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-weight: bold;
+    font-size: 11px;
+    color: #333;
+    pointer-events: none;
+    transition: all 0.2s ease-in-out;
+}
+.container .Summit{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 600px;
+    border-radius: 50px;
+}
